@@ -70,7 +70,7 @@ def start(update, context):
 This bot can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
-        sendMarkup(start_string, context.bot, update, reply_markup)
+        sendMarkup("go away ")
     else:
         sendMarkup("go away")
 
